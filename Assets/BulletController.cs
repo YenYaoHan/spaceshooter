@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public float speed = 10f;
+	// Use this for initialization
+	void Start()
+	{
+		gameObject.GetComponent<Rigidbody>().velocity = transform.forward * speed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+		//Vector3.forward (0,0,1)
+		//Vector3.back (0,0,-1)
+		//Vector3.right (1,0,0)	
+		//Vector3.left (-1,0,0)	
+	}
 }
