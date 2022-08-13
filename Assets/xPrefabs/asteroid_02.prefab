@@ -105,8 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19deed40c948e1c4c954f2baa30dd866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 0}
-  playerExplosion: {fileID: 0}
+  explosion: {fileID: 100004, guid: 39e7afe67c61c33419104f1f2b371297, type: 3}
+  playerExplosion: {fileID: 100004, guid: f6ada5ac51de24b49b4da97204c9d615, type: 3}
   scoreValue: 10
 --- !u!1001 &1796228373922398911
 PrefabInstance:
